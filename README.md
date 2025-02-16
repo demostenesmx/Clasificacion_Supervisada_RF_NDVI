@@ -16,9 +16,9 @@ Estimaciones.
 Con la ejecución de este script obtendrá umbrales de NDVI, histogramas de NDVI con las bandas ópticas de S2, superficie de cada por zona de estudio y estadisticos derivados de RF para el año 2023. Información generada para la duna costera en la zona norte y sur de la RBSK.
 Resultados:
 
-1.  ![alt text](ZN.png)
+1.  ![alt text](Histo_NDVI_ZN.png)
 
-2. ![alt text](ZS.png)
+2. ![alt text](Histo_NDVI_ZS.png)
    
 3.  ![alt text](ZN.png)
 
