@@ -13,13 +13,15 @@ El repostirorio se elaboró de acuerdo a los lineamientos de la [**licencia GNU 
 
 Estimaciones.
 
-Con la ejecución de este script obtendrá umbrales de NDVI, histogramas de NDVI con las bandas ópticas de S2, superficie de cada por zona de estudio y estadisticos derivados de RF para el año 2023. Información generada para la duna costera en la zona norte y sur de la RBSK.
+Con la ejecución de este script obtendrá umbrales de NDVI, histogramas de NDVI con las bandas ópticas de S2, superficie de cada por zona de estudio y estadisticos derivados de RF para el año 2023. Información generada para la duna costera en la zona norte y sur de la RBSK.SD. *Clases = Suelo desnudo, VDB: Vegetación densidad baja, VDMB: Vegetación densidad media baja, VDMA: Vegetación densidad media alta y VDA: Vegetación densidad alta.
 Resultados:
 
 1.  ![alt text](Histo_NDVI_ZN.png)
 
 2. ![alt text](Histo_NDVI_ZS.png)
-   
+
+*Clases = 1:SD, 2:VDB, 3:VDMB', 4:VDMA, 5:VDA.
+
 3.  ![alt text](Area_Class_ZN.png)
 
 4. ![alt text](Area_Class_ZS.png)
