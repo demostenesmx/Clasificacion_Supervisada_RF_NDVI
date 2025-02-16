@@ -20,9 +20,9 @@ Resultados:
 
 2. ![alt text](Histo_NDVI_ZS.png)
    
-3.  ![alt text](ZN.png)
+3.  ![alt text](Area_Class_ZN.png)
 
-4. ![alt text](ZS.png)
+4. ![alt text](Area_Class_ZS.png)
 
 ### Capas raster a exportar. 
 Visualización de la Reserva de la Bisofera de Sian Ka´an (RBSK), mediante NDVI aplicado a la colección L8, exhibiendo estacionalidad fenológica de las bandas de fase, amplitud, y valor de NDVImediana en GEE. Las capas raster a exportar se ubican dentro de la pestaña Tasks, para su descarga en google drive y posteriormente ser descargadas a la PC personal para su manipulación. Este código fue elaborado mendiante la plataforma GEE. 
