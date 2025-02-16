@@ -1,6 +1,6 @@
 # Clasificacion_Supervisada_RF_NDVI
 Estimación de umbrales y clasificación supervisada mediante algoriymo random forest (RF) con NDVI sobre colección armonizada S2, tomado y ajustado en Google Earth Engine (GEE).
-# Desarrollo de código y obtención de información para el estudio de la densida de la cobertura vegetal mediante NDVI, aplicado a S2 en duna costera.
+# Desarrollo de código y obtención de información para el estudio de la densidad de la cobertura vegetal mediante NDVI, aplicado a S2 en duna costera.
 
 ## Descripción 📋
 El presente código esta desarrollado para obtener una clasificación supervisada a través del modelo RF con umbrales de NDVI sobre la densidad de la cobertura vegetal, aplicado a la colección armonizada S2 dentro de GEE, para la region central del Caribe Mexicano, donde se ubica la Reserva de la Bisofera de Sian Ka´an (RBSK), Quintana Roo, México. Clasificando los pixeles de las bandas ópticas que se relacionan con los pixeles de los umbrales de NDVI, asignándolos a las clases propuestas en este estudio. Información que puede ser descargada para su manejo externo. [**GEE**](https://developers.google.com/earth-engine/guides/getstarted?hl=en).
