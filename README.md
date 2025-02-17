@@ -9,7 +9,7 @@ El repostirorio se elaboró de acuerdo a los lineamientos de la [**licencia GNU 
 
 ##Visualización de la Reserva de la Bisofera de Sian Ka´an (RBSK), y zonas de estudio en GEE.
 
-![alt text](AE_RBSK.PNG);  📖
+![alt text](AE_RBSK.PNG);  
 
 Estimaciones.
 
@@ -31,6 +31,7 @@ Visualización de la Reserva de la Bisofera de Sian Ka´an (RBSK), mediante NDVI
 
 ![alt text](AE_GEE.PNG)
 
+![alt text](AE_GEE.PNG)
 La manipulación de la información contenida en los rasaters puede realizarse, a traves, del sistema de información geografica de su preferencia. Para el presente caso de estudio se utilizó el software de acceso libre QGIS.
 
 ![alt text](https://github.com/demostenesmx/NDVI-SAVI_DCA/blob/main/QGis.JPG)
