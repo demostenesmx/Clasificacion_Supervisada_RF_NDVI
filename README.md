@@ -9,7 +9,7 @@ El repostirorio se elaboró de acuerdo a los lineamientos de la [**licencia GNU 
 
 ##Visualización de la Reserva de la Bisofera de Sian Ka´an (RBSK), y zonas de estudio en GEE.
 
-![alt text](https://github.com/demostenesmx/NDVI-SAVI_DCA/blob/main/C02_B_3_2_1_RBSK.JPG);  ![alt text](https://github.com/demostenesmx/NDVI-SAVI_DCA/blob/main/Veg%20(B_4-3-2).jpeg) 📖
+![alt text](AE_RBSK.PNG);  ![alt text](https://github.com/demostenesmx/NDVI-SAVI_DCA/blob/main/Veg%20(B_4-3-2).jpeg) 📖
 
 Estimaciones.
 
