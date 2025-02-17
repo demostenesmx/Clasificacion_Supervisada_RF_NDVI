@@ -7,7 +7,7 @@ El presente script esta desarrollado para obtener una clasificación supervisada
 
 El repostirorio se elaboró de acuerdo a los lineamientos de la [**licencia GNU General Public License v3.0.**](https://choosealicense.com/licenses/gpl-3.0/).
 
-##Visualización de la Reserva de la Bisofera de Sian Ka´an (RBSK), y zonas de estudio en GEE.
+##Visualización de la Reserva de la Bisofera de Sian Ka´an (RBSK) y zonas de estudio en GEE.
 
 ![alt text](AE_RBSK.PNG);  
 
