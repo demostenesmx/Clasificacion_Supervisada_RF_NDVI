@@ -201,7 +201,16 @@ Map.addLayer (clasificacionRF, {min: 0, max: 4,
 palette:['#f6fffb','#e1ffbb','#9dff20','#2dff2c','#17bc05']}, 'clasificacion');
 
 //======================16. Validación de exactitud y precisión de la clasificación.===============/
-  var validation = testing.classify(classifier);
+ //https://developers.google.com/earth-engine/apidocs/ee-classifier-confusionmatrix
+ 
+//====Obtenga una matriz de confusión y precisión general para la muestra de entrenamiento.=====/
+ var trainAccuracy = classifier.confusionMatrix();
+ print('Matriz_error_entrenamiento', trainAccuracy);
+ print('Precision_general_entrenamiento', trainAccuracy.accuracy());
+  print('Coeficiente_Kappa', trainAccuracy .kappa());
+  
+//=====Obtenga una matriz de confusión y precisión general para la muestra de validación.======/ 
+var validation = testing.classify(classifier);
   var testAccuracy = validation.errorMatrix('id', 'classification');//testConfusionMatrix
   print('Matriz_errores_validacion_RF: ', testAccuracy);
   print('Precision_general_validacion_RF: ', testAccuracy.accuracy());
