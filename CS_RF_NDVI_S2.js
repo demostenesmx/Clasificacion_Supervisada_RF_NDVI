@@ -194,7 +194,7 @@ print(classifier.explain(), 'Clasificador explicado');
 //===========================14. Agregando banda clasificada a la colección armonizada================/
 
 var clasificacionRF = S2_01.classify(classifier); 
-print(clasificacionRF);
+print(clasificacionRF, 'Clasificación_RF');
 
 //=================================15. Agregando clasificación al mapa.==============================/
 Map.addLayer (clasificacionRF, {min: 0, max: 4,
@@ -299,6 +299,30 @@ Export.table.toDrive({
   fileNamePrefix: 'accuracy',
   fileFormat: 'CSV'
 });
+
+//=============================Convertir clasificación a vectores.==============/
+var vectors =  clasificacionRF.reduceToVectors({
+  geometry: zonas,
+  crs: 'EPSG:32616',
+  scale: 10,
+  geometryType: 'polygon',
+  eightConnected: false,
+  labelProperty: 'NDVI',
+    maxPixels: 1e13
+//  reducer: ee.Reducer.median()
+});
+
+//============================Exportar archivo vector a archivo KML.============/
+Export.table.toDrive({
+  collection: vectors,
+  description:'Vectors_Clasificacion',
+  fileFormat: 'KML',
+  folder: 'GEE',
+});
+
+//Fuente:
+//https://developers-google-com.translate.goog/earth-engine/guides/exporting_tables?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
+//https://developers-google-com.translate.goog/earth-engine/guides/reducers_reduce_to_vectors?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
 
 //===========================22. Gráficos de superficie por clase============================/
 
@@ -412,3 +436,4 @@ for (var i = 0; i < 5; i++) {
 //==========================================10. Agregar una leyenda al mapa.=======================/
 //==================(alternativamente también puede imprimir la leyenda a la consola)  
 Map.add(legend); 
+Map.addLayer(POL_RBSK, {color: 'blue'}, 'RBSK');
