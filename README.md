@@ -1,5 +1,5 @@
 # Clasificacion_Supervisada_RF_NDVI
-Estimación de umbrales y clasificación supervisada mediante algoriymo random forest (RF) con NDVI sobre colección armonizada S2, tomado y ajustado en Google Earth Engine (GEE).
+Estimación de umbrales y clasificación supervisada mediante clasificador random forest (RF) con NDVI sobre colección armonizada S2 en Google Earth Engine (GEE).
 # Desarrollo de código y obtención de información para el estudio de la densidad de la cobertura vegetal mediante NDVI, aplicado a S2 en duna costera.
 
 ## Descripción 📋
