@@ -231,6 +231,20 @@ print("Precision_productor", testAccuracy.producersAccuracy());
 //======================================17.3. Coeficiente Kappa.====================================/
 print('Coeficiente_Kappa', testAccuracy.kappa());
 
+//===========================17.4. F1 Score.======================================================
+
+var beta = 0.5; // para F1, o ajusta a otro valor para F-beta
+var fscore = testAccuracy.fscore(beta);
+print('F-score (0.5)', fscore);
+
+var beta = 1; // para F1, o ajusta a otro valor para F-beta
+var fscore = testAccuracy.fscore(beta);
+print('F-score (1)', fscore);
+
+var beta = 2; // para F1, o ajusta a otro valor para F-beta
+var fscore = testAccuracy.fscore(beta);
+print('F-score (recall)', fscore);
+
 //=================================Lista de coberturas.============================================/
 var classList= ['SD', 'VDB', 'VDMB', 'VDMA', 'VDA'];
 
